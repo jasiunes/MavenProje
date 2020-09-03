@@ -46,15 +46,7 @@ public class Day09_Assertion {
         Assert.assertFalse(iceriyorMu); // False olduğunu doğrula.
         // parantezin içerisi FALSE ise test başarılı.
     }
-    @Test
-    public void test4(){
-        driver.get("http://google.com");
-        String title = driver.getTitle();
-        System.out.println("MERHABALAR..");
-        Assert.assertEquals("Google Arama Sayfası",title);
-        // eğer test başarısızsa içerisinde bulunulan testin kalan kısmı çalıştırmıyor.
-        System.out.println("TEST DOĞRULAMA İŞLEMİ BİTTİ..");
-    }
+
     @Test
     public void test5(){
         driver.get("http://facebook.com");
